@@ -35,7 +35,9 @@ function setup() {
 	butterflies.addAnimation("1Butterfly", butterflyImg)
 
 	Engine.run(engine);
- 
+	
+ butterflies.depth=girl.depth
+ girl.depth=girl.depth+1
 }
 
 
